@@ -23,7 +23,7 @@ function TransactionList({ transactions, onDelete, onEdit }) {
 
   return (
     <div className="bg-white rounded-lg shadow p-6 dark:bg-gray-800">
-      <h2 className="text-xl font-semibold mb-4">Transactions</h2>
+      <h2 className="text-white text-xl font-semibold mb-4">Transactions</h2>
       
       <div className="space-y-4 mb-4">
         <input

@@ -25,7 +25,7 @@ function TransactionForm({ onSubmit, initialData }) {
 
   return (
     <div className="bg-white rounded-lg shadow p-6 dark:bg-gray-800">
-      <h2 className="text-xl font-semibold mb-4">
+      <h2 className="text-white text-xl font-semibold mb-4">
         {initialData ? 'Edit Transaction' : 'Add Transaction'}
       </h2>
       

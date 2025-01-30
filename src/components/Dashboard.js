@@ -59,23 +59,23 @@ function Dashboard({ transactions }) {
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-      <div className="bg-white rounded-lg shadow p-6 dark:bg-gray-800">
-        <h2 className="text-xl font-semibold mb-4">Summary</h2>
+      <div className="bg-blue-100 rounded-lg shadow p-6 dark:bg-blue-900">
+        <h2 className="text-white text-xl font-semibold mb-4">Summary</h2>
         <div className="grid grid-cols-3 gap-4">
           <div className="text-center">
-            <p className="text-gray-500">Balance</p>
+            <p className="text-white">Balance</p>
             <p className={`text-xl font-bold ${stats.balance >= 0 ? 'text-green-500' : 'text-red-500'}`}>
               ${stats.balance.toFixed(2)}
             </p>
           </div>
           <div className="text-center">
-            <p className="text-gray-500">Income</p>
+            <p className="text-white">Income</p>
             <p className="text-xl font-bold text-green-500">
               ${stats.income.toFixed(2)}
             </p>
           </div>
           <div className="text-center">
-            <p className="text-gray-500">Expenses</p>
+            <p className="text-white">Expenses</p>
             <p className="text-xl font-bold text-red-500">
               ${stats.expenses.toFixed(2)}
             </p>
